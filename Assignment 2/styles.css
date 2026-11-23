@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+h1, h2 {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.topnav {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, button {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.out {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.err {
+  color: red;
+}
+
+.note {
+  font-size: 14px;
+  color: gray;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: gray;
+}
