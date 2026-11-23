@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment #2 - Income Tax Calculator - CS 1130</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topnav"><a href="../index.html">&#8962; Home</a></div>
+<header>
+  <h1>Assignment #2 - Income Tax Calculator</h1>
+  <p>Computes the income tax from an annual taxable income.</p>
+</header>
+<main>
+  <section>
+    <div class="row">
+      <label>Annual taxable income (PHP)<input type="number" id="income" min="0" step="any"></label>
+      <button onclick="calcTax()">Compute tax</button>
+    </div>
+    <div class="out" id="o2" aria-live="polite"></div>
+    <p class="note">Uses the Philippine annual income tax table for individuals (2023 onward): 0% up to 250,000;
+    15% over 250,000; 22,500 + 20% over 400,000; 102,500 + 25% over 800,000; 402,500 + 30% over 2,000,000;
+    2,202,500 + 35% over 8,000,000. Replace the table in assignment2.js if your instructor gave a different one.</p>
+  </section>
+</main>
+<footer>CS 1130 - Computer Studies Division, Ateneo de Davao University</footer>
+<script src="assignment_2.js"></script>
+</body>
+</html>
